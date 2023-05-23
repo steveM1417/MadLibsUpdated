@@ -7,52 +7,62 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/et_Animal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Animal"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="303dp" />
 
     <EditText
-        android:id="@+id/editTextText7"
+        android:id="@+id/et_Car"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Any car"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="483dp" />
 
     <EditText
-        android:id="@+id/editTextText11"
+        android:id="@+id/et_Resturant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Resturant"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="528dp" />
 
     <EditText
-        android:id="@+id/editTextText8"
+        android:id="@+id/et_AmountOfMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="A amount of money"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <EditText
+        android:id="@+id/et_FavoriteColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Favorite color"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="348dp" />
 
     <EditText
-        android:id="@+id/editTextText9"
+        android:id="@+id/et_Toy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Any toy"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="438dp" />
 
@@ -96,52 +106,52 @@
         app:layout_constraintGuide_begin="17dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/et_Noun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Noun"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="123dp" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/et_Adverb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Adverb"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="168dp" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/et_Adjective"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Adjective"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="213dp" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/et_Color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Color"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="258dp" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/et_Number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:hint="Any number"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="393dp" />
 
