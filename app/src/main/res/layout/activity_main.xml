@@ -6,172 +6,178 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/et_Animal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Animal"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="303dp" />
-
-    <EditText
-        android:id="@+id/et_Car"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Any car"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="483dp" />
-
-    <EditText
-        android:id="@+id/et_Resturant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Resturant"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="528dp" />
-
-    <EditText
-        android:id="@+id/et_AmountOfMoney"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="A amount of money"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="573dp" />
-
-    <EditText
-        android:id="@+id/et_FavoriteColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Favorite color"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="348dp" />
-
-    <EditText
-        android:id="@+id/et_Toy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Any toy"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="438dp" />
-
-    <TextView
-        android:layout_width="141dp"
-        android:layout_height="29dp"
-        android:text="Mad Libs Generator"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.463"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="64dp" />
+        app:layout_constraintGuide_percent="0.05" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="715dp" />
+        app:layout_constraintGuide_percent="0.95" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="385dp" />
+        app:layout_constraintGuide_percent="0.94" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="17dp" />
+        app:layout_constraintGuide_percent="0.04" />
 
-    <EditText
-        android:id="@+id/et_Noun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Noun"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="123dp" />
-
-    <EditText
-        android:id="@+id/et_Adverb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Adverb"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="168dp" />
-
-    <EditText
-        android:id="@+id/et_Adjective"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Adjective"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <EditText
-        android:id="@+id/et_Color"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Color"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="258dp" />
-
-    <EditText
-        android:id="@+id/et_Number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Any number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="393dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fill in the boxes below to generate a mad lib."
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="44dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Entering a creepy forest at night"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:text="Mad Libs Generator" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entering a creepy forest at night"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:hint="Fill in the boxes below to generate a mad lib." />
+
+        <EditText
+            android:id="@+id/et_Noun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Noun"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Adverb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Adverb"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Adjective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Adjective"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Color"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Animal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Animal"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_FavoriteColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Favorite color"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Any number"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Toy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Any toy"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Any car"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_Resturant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Resturant"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_AmountOfMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="A amount of money"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_generate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
