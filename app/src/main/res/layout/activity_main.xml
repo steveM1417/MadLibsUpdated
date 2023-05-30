@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95" />
+        app:layout_constraintGuide_percent="0.98" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -63,12 +63,32 @@
             android:hint="Fill in the boxes below to generate a mad lib." />
 
         <EditText
+            android:id="@+id/et_BaseballTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Baseball team"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/et_TrueOrFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="True or False"
+            android:inputType="text" />
+
+        <EditText
             android:id="@+id/et_Noun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_gravity="center"
             android:ems="10"
+            android:gravity="center"
             android:hint="Noun"
             android:inputType="text" />
 
