@@ -2,6 +2,7 @@ package com.example.madlibs;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.CharacterPickerDialog;
 import android.view.View;
@@ -16,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText etAdjective;
     private EditText etColor;
     private EditText etAnimal;
-    private EditText etFavoriteColor;
     private EditText etNumber;
     private EditText etToy;
     private EditText etCar;
@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         etAdjective = findViewById(R.id.et_Adjective);
         etColor = findViewById(R.id.et_Color);
         etAnimal = findViewById(R.id.et_Animal);
-        etFavoriteColor = findViewById(R.id.et_FavoriteColor);
         etNumber = findViewById(R.id.et_Number);
         etToy = findViewById(R.id.et_Toy);
         etCar = findViewById(R.id.et_Car);
@@ -46,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         etAmountOfMoney = findViewById(R.id.et_AmountOfMoney);
         btnGenerate=findViewById(R.id.btn_generate);
 
+        Intent intent = new Intent(this, MainActivity2.class);
         btnGenerate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,9 +64,18 @@ public class MainActivity extends AppCompatActivity {
                 story += "\nYou go to the street and see a " + etColor.getText() + etCar.getText() +" parked. ";
                 story += "\nYou check if its open and see the keys already in the ignition. ";
                 story += "\nYour friends are hungry from adventuring so you stop at " + etResturant.getText() + ".";
-                story += "\n...";
-                story += "\n...";
-                story += "\n...";
+                story += "\nWhen you step out you see the cars owner riding a random bike towards you yelling at the top of his lungs! ";
+                story += "\nHe tells you he needs money for the gas you used. ";
+                story += "\nYou give him " + etAmountOfMoney.getText() + " dollars that you had in your wallet. ";
+                story += "\nYou end up walking home hungry and as soon as you open the door you wake up. ";
+                story += "\nIt was all a dream! ";
+
+                intent.putExtra("story",story);
+
+                startActivity(intent);
+
+
+
 
 
             }
